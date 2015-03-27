@@ -1,0 +1,71 @@
+c:\users\kenpachi\documents\visual studio 2010\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+c:\users\kenpachi\documents\visual studio 2010\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+c:\users\kenpachi\documents\visual studio 2010\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+c:\users\kenpachi\documents\visual studio 2010\Projects\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Calculator.resources
+c:\users\kenpachi\documents\visual studio 2010\Projects\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+c:\users\kenpachi\documents\visual studio 2010\Projects\WindowsApplication1\WindowsApplication1\obj\x86\Debug\Calculator.vbproj.GenerateResource.Cache
+c:\users\kenpachi\documents\visual studio 2010\Projects\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+c:\users\kenpachi\documents\visual studio 2010\Projects\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+c:\users\kenpachi\documents\visual studio 2010\Projects\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+F:\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+F:\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+F:\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+F:\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+F:\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+F:\WindowsApplication1\WindowsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Calculator.resources
+F:\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+F:\WindowsApplication1\WindowsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\WindowsApplication1\WindowsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+nfig
+F:\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+F:\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Users\Kenpachi\Documents\Visual Studio 2010\Projects\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Calculator.vbproj.GenerateResource.Cache
+C:\Users\Kenpachi\Documents\Visual Studio 2010\Projects\EVE_Ore_Calculator\WindowsApplication1\bin\Debug\EVE_Ore_Calculator.exe.config
+C:\Users\Kenpachi\Documents\Visual Studio 2010\Projects\EVE_Ore_Calculator\WindowsApplication1\bin\Debug\EVE_Ore_Calculator.exe
+C:\Users\Kenpachi\Documents\Visual Studio 2010\Projects\EVE_Ore_Calculator\WindowsApplication1\bin\Debug\EVE_Ore_Calculator.pdb
+C:\Users\Kenpachi\Documents\Visual Studio 2010\Projects\EVE_Ore_Calculator\WindowsApplication1\bin\Debug\EVE_Ore_Calculator.xml
+C:\Users\Kenpachi\Documents\Visual Studio 2010\Projects\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.Form1.resources
+C:\Users\Kenpachi\Documents\Visual Studio 2010\Projects\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.Resources.resources
+C:\Users\Kenpachi\Documents\Visual Studio 2010\Projects\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.exe
+C:\Users\Kenpachi\Documents\Visual Studio 2010\Projects\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.xml
+C:\Users\Kenpachi\Documents\Visual Studio 2010\Projects\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.pdb
+H:\EVE_Ore_Calculator\WindowsApplication1\bin\Debug\EVE_Ore_Calculator.exe.config
+H:\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.exe
+H:\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.xml
+H:\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.pdb
+H:\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.Form1.resources
+H:\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.Resources.resources
+H:\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Calculator.vbproj.GenerateResource.Cache
+H:\EVE_Ore_Calculator\WindowsApplication1\bin\Debug\EVE_Ore_Calculator.exe
+H:\EVE_Ore_Calculator\WindowsApplication1\bin\Debug\EVE_Ore_Calculator.pdb
+H:\EVE_Ore_Calculator\WindowsApplication1\bin\Debug\EVE_Ore_Calculator.xml
+C:\Users\Kenpachi\Desktop\EVE_Ore_Calculator\WindowsApplication1\bin\Debug\EVE_Ore_Calculator.exe.config
+C:\Users\Kenpachi\Desktop\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.exe
+C:\Users\Kenpachi\Desktop\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.xml
+C:\Users\Kenpachi\Desktop\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.pdb
+C:\Users\Kenpachi\Desktop\EVE_Ore_Calculator\WindowsApplication1\bin\Debug\EVE_Ore_Calculator.exe
+C:\Users\Kenpachi\Desktop\EVE_Ore_Calculator\WindowsApplication1\bin\Debug\EVE_Ore_Calculator.pdb
+C:\Users\Kenpachi\Desktop\EVE_Ore_Calculator\WindowsApplication1\bin\Debug\EVE_Ore_Calculator.xml
+C:\Users\Kenpachi\Desktop\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.Form1.resources
+C:\Users\Kenpachi\Desktop\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\EVE_Ore_Calculator.Resources.resources
+C:\Users\Kenpachi\Desktop\EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Calculator.vbproj.GenerateResource.Cache
+G:\Officer_EVE_Ore_Calculator\WindowsApplication1\bin\Debug\Officer_EVE_Ore_Calculator.exe.config
+G:\Officer_EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.exe
+G:\Officer_EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.xml
+G:\Officer_EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.pdb
+H:\Officer_EVE_Ore_Calculator\WindowsApplication1\bin\Debug\Officer_EVE_Ore_Calculator.exe.config
+H:\Officer_EVE_Ore_Calculator\WindowsApplication1\bin\Debug\Officer_EVE_Ore_Calculator.exe
+H:\Officer_EVE_Ore_Calculator\WindowsApplication1\bin\Debug\Officer_EVE_Ore_Calculator.pdb
+H:\Officer_EVE_Ore_Calculator\WindowsApplication1\bin\Debug\Officer_EVE_Ore_Calculator.xml
+H:\Officer_EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.OreCalculator.resources
+H:\Officer_EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.Login.resources
+H:\Officer_EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.Resources.resources
+H:\Officer_EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.ItemPriceUpdate.resources
+H:\Officer_EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.OrePriceUpdate.resources
+H:\Officer_EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Calculator.vbproj.GenerateResource.Cache
+H:\Officer_EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.exe
+H:\Officer_EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.xml
+H:\Officer_EVE_Ore_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.pdb
+C:\Users\Kenny\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\bin\Debug\Officer_EVE_Ore_Calculator.exe.config
