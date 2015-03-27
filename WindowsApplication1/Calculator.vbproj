@@ -99,6 +99,12 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MiningPriceUpdate.Designer.vb">
+      <DependentUpon>MiningPriceUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MiningPriceUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="OptionScreen.Designer.vb">
       <DependentUpon>OptionScreen.vb</DependentUpon>
     </Compile>
@@ -159,6 +165,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="MiningPriceUpdate.resx">
+      <DependentUpon>MiningPriceUpdate.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OptionScreen.resx">
       <DependentUpon>OptionScreen.vb</DependentUpon>
     </EmbeddedResource>

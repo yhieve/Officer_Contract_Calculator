@@ -1,7 +1,6 @@
 ﻿Imports System.IO
 Imports MySql.Data.MySqlClient
-
-Public Class PIPriceUpdate
+Public Class MiningPriceUpdate
     Dim Mysqlconn As MySqlConnection
     Dim cmd As MySqlCommand
 
@@ -24,7 +23,7 @@ Public Class PIPriceUpdate
             Mysqlconn.Open()
             cmd = New MySqlCommand()
             cmd.Connection = Mysqlconn
-            cmd.CommandText = "pi_prices_update"
+            cmd.CommandText = "mining_prices_update"
             cmd.CommandType = CommandType.StoredProcedure
             For Each s In readText
                 filecolumns = s.Split(",")

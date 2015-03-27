@@ -6,7 +6,7 @@
     End Sub
 
     Private Sub Ore_Price_Updater_Button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Ore_Price_Updater_Button.Click
-        Dim myform As New Z_Old_OrePriceUpdate
+        Dim myform As New MiningPriceUpdate
         myform.Show()
     End Sub
 

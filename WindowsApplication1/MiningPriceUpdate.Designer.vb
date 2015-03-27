@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class PIPriceUpdate
+Partial Class MiningPriceUpdate
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,37 +22,37 @@ Partial Class PIPriceUpdate
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.FilePath = New System.Windows.Forms.TextBox()
-        Me.BrowseFileButton = New System.Windows.Forms.Button()
         Me.ImportButton = New System.Windows.Forms.Button()
+        Me.BrowseFileButton = New System.Windows.Forms.Button()
+        Me.FilePath = New System.Windows.Forms.TextBox()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.Importing_Label = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'FilePath
+        'ImportButton
         '
-        Me.FilePath.Location = New System.Drawing.Point(27, 23)
-        Me.FilePath.Name = "FilePath"
-        Me.FilePath.Size = New System.Drawing.Size(344, 26)
-        Me.FilePath.TabIndex = 0
+        Me.ImportButton.Location = New System.Drawing.Point(189, 87)
+        Me.ImportButton.Name = "ImportButton"
+        Me.ImportButton.Size = New System.Drawing.Size(108, 43)
+        Me.ImportButton.TabIndex = 5
+        Me.ImportButton.Text = "Import"
+        Me.ImportButton.UseVisualStyleBackColor = True
         '
         'BrowseFileButton
         '
-        Me.BrowseFileButton.Location = New System.Drawing.Point(377, 16)
+        Me.BrowseFileButton.Location = New System.Drawing.Point(377, 30)
         Me.BrowseFileButton.Name = "BrowseFileButton"
         Me.BrowseFileButton.Size = New System.Drawing.Size(92, 33)
-        Me.BrowseFileButton.TabIndex = 1
+        Me.BrowseFileButton.TabIndex = 4
         Me.BrowseFileButton.Text = "Browse"
         Me.BrowseFileButton.UseVisualStyleBackColor = True
         '
-        'ImportButton
+        'FilePath
         '
-        Me.ImportButton.Location = New System.Drawing.Point(189, 73)
-        Me.ImportButton.Name = "ImportButton"
-        Me.ImportButton.Size = New System.Drawing.Size(108, 43)
-        Me.ImportButton.TabIndex = 2
-        Me.ImportButton.Text = "Import"
-        Me.ImportButton.UseVisualStyleBackColor = True
+        Me.FilePath.Location = New System.Drawing.Point(27, 37)
+        Me.FilePath.Name = "FilePath"
+        Me.FilePath.Size = New System.Drawing.Size(344, 26)
+        Me.FilePath.TabIndex = 3
         '
         'OpenFileDialog1
         '
@@ -61,14 +61,14 @@ Partial Class PIPriceUpdate
         'Importing_Label
         '
         Me.Importing_Label.AutoSize = True
-        Me.Importing_Label.Location = New System.Drawing.Point(88, 132)
+        Me.Importing_Label.Location = New System.Drawing.Point(101, 133)
         Me.Importing_Label.Name = "Importing_Label"
         Me.Importing_Label.Size = New System.Drawing.Size(294, 20)
-        Me.Importing_Label.TabIndex = 3
+        Me.Importing_Label.TabIndex = 6
         Me.Importing_Label.Text = "Import in progress. Do not close window."
         Me.Importing_Label.Visible = False
         '
-        'PIPriceUpdate
+        'MiningPriceUpdate
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -77,15 +77,15 @@ Partial Class PIPriceUpdate
         Me.Controls.Add(Me.ImportButton)
         Me.Controls.Add(Me.BrowseFileButton)
         Me.Controls.Add(Me.FilePath)
-        Me.Name = "PIPriceUpdate"
-        Me.Text = "PIPriceUpdate"
+        Me.Name = "MiningPriceUpdate"
+        Me.Text = "MiningPriceUpdate"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents FilePath As System.Windows.Forms.TextBox
-    Friend WithEvents BrowseFileButton As System.Windows.Forms.Button
     Friend WithEvents ImportButton As System.Windows.Forms.Button
+    Friend WithEvents BrowseFileButton As System.Windows.Forms.Button
+    Friend WithEvents FilePath As System.Windows.Forms.TextBox
     Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
     Friend WithEvents Importing_Label As System.Windows.Forms.Label
 End Class
