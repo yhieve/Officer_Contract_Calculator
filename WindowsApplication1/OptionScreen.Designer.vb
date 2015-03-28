@@ -29,6 +29,7 @@ Partial Class OptionScreen
         Me.PI_Price_Updater_Button = New System.Windows.Forms.Button()
         Me.Inventory_Button = New System.Windows.Forms.Button()
         Me.Build_Info_Button = New System.Windows.Forms.Button()
+        Me.Loading = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Ore_Calculator_Button
@@ -91,12 +92,24 @@ Partial Class OptionScreen
         Me.Build_Info_Button.Text = "Build Info"
         Me.Build_Info_Button.UseVisualStyleBackColor = True
         '
+        'Loading
+        '
+        Me.Loading.AutoSize = True
+        Me.Loading.Location = New System.Drawing.Point(169, 283)
+        Me.Loading.Name = "Loading"
+        Me.Loading.Size = New System.Drawing.Size(66, 20)
+        Me.Loading.TabIndex = 6
+        Me.Loading.Text = "Loading"
+        Me.Loading.Visible = False
+        '
         'OptionScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(448, 278)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(448, 322)
+        Me.Controls.Add(Me.Loading)
         Me.Controls.Add(Me.Build_Info_Button)
         Me.Controls.Add(Me.Inventory_Button)
         Me.Controls.Add(Me.PI_Price_Updater_Button)
@@ -107,6 +120,7 @@ Partial Class OptionScreen
         Me.Name = "OptionScreen"
         Me.Text = "Option_Screen"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Ore_Calculator_Button As System.Windows.Forms.Button
@@ -115,4 +129,5 @@ Partial Class OptionScreen
     Friend WithEvents PI_Price_Updater_Button As System.Windows.Forms.Button
     Friend WithEvents Inventory_Button As System.Windows.Forms.Button
     Friend WithEvents Build_Info_Button As System.Windows.Forms.Button
+    Friend WithEvents Loading As System.Windows.Forms.Label
 End Class

@@ -117,6 +117,20 @@
     <Compile Include="OreCalculator.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="PICalculator.Designer.vb">
+      <DependentUpon>PICalculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PICalculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YHIDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YHIDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YHIDataSet.vb">
+      <DependentUpon>YHIDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Z_Old_OreCalculator.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +185,12 @@
     <EmbeddedResource Include="OptionScreen.resx">
       <DependentUpon>OptionScreen.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OreCalculator.resx">
+      <DependentUpon>OreCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PICalculator.resx">
+      <DependentUpon>PICalculator.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Z_Old_OreCalculator.resx">
       <DependentUpon>Z_Old_OreCalculator.vb</DependentUpon>
     </EmbeddedResource>
@@ -206,6 +226,17 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <None Include="YHIDataSet.xsc">
+      <DependentUpon>YHIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="YHIDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YHIDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YHIDataSet.xss">
+      <DependentUpon>YHIDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
@@ -231,6 +262,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="98237322_128.ico" />
+    <None Include="Resources\yellow_violet_planet_by_paulinemoss-d532k8u.jpg" />
+    <None Include="Resources\NASA-Asteroid-Mining.jpg" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
