@@ -175,54 +175,74 @@ Public Class PICalculator
 
     End Sub
     Private Sub Item1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item1.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU1.Text = Item1.SelectedIndex.ToString()
+        If Item1.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.PI_PricesRow = Item1.SelectedItem.Row
+            IPU1.Text = Source_Data.Price
+        End If
 
     End Sub
 
     Private Sub Item2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item2.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU2.Text = Item2.SelectedIndex.ToString()
+        If Item2.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.PI_PricesRow = Item2.SelectedItem.Row
+            IPU2.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item3_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item3.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU3.Text = Item3.SelectedIndex.ToString()
+        If Item3.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.PI_PricesRow = Item3.SelectedItem.Row
+            IPU3.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item4_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item4.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU4.Text = Item4.SelectedIndex.ToString()
+        If Item4.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.PI_PricesRow = Item4.SelectedItem.Row
+            IPU4.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item5_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item5.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU5.Text = Item5.SelectedIndex.ToString()
+        If Item5.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.PI_PricesRow = Item5.SelectedItem.Row
+            IPU5.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item6_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item6.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU6.Text = Item6.SelectedIndex.ToString()
+        If Item6.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.PI_PricesRow = Item6.SelectedItem.Row
+            IPU6.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item7_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item7.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU7.Text = Item7.SelectedIndex.ToString()
+        If Item7.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item7.SelectedItem.Row
+            IPU7.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item8_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item8.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU8.Text = Item8.SelectedIndex.ToString()
+        If Item8.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.PI_PricesRow = Item8.SelectedItem.Row
+            IPU8.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item9_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item9.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU9.Text = Item9.SelectedIndex.ToString()
+        If Item9.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.PI_PricesRow = Item9.SelectedItem.Row
+            IPU9.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item10_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item10.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU10.Text = Item10.SelectedIndex.ToString()
+        If Item10.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.PI_PricesRow = Item10.SelectedItem.Row
+            IPU10.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Submit_Button_Click(sender As Object, e As EventArgs) Handles Submit_Button.Click
