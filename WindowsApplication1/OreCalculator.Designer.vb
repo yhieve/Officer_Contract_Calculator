@@ -278,6 +278,7 @@ Partial Class OreCalculator
         Me.Item15.Name = "Item15"
         Me.Item15.Size = New System.Drawing.Size(233, 28)
         Me.Item15.TabIndex = 124
+        Me.Item15.Text = " "
         Me.Item15.ValueMember = "M3"
         '
         'MiningPricesBindingSource14
@@ -1108,6 +1109,7 @@ Partial Class OreCalculator
         Me.Item1.Name = "Item1"
         Me.Item1.Size = New System.Drawing.Size(233, 28)
         Me.Item1.TabIndex = 133
+        Me.Item1.Text = " "
         Me.Item1.ValueMember = "M3"
         '
         'MiningPricesBindingSource

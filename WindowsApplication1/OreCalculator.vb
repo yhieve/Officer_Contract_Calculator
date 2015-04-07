@@ -166,21 +166,21 @@ Public Class OreCalculator
     End Sub
 
     Private Sub Clear_All_Button_Click(sender As Object, e As EventArgs) Handles Clear_All_Button.Click
-        Item1.Text = ""
-        Item2.Text = ""
-        Item3.Text = ""
-        Item4.Text = ""
-        Item5.Text = ""
-        Item6.Text = ""
-        Item7.Text = ""
-        Item8.Text = ""
-        Item9.Text = ""
-        Item10.Text = ""
-        Item11.Text = ""
-        Item12.Text = ""
-        Item13.Text = ""
-        Item14.Text = ""
-        Item15.Text = ""
+        Item1.Text = " "
+        Item2.Text = " "
+        Item3.Text = " "
+        Item4.Text = " "
+        Item5.Text = " "
+        Item6.Text = " "
+        Item7.Text = " "
+        Item8.Text = " "
+        Item9.Text = " "
+        Item10.Text = " "
+        Item11.Text = " "
+        Item12.Text = " "
+        Item13.Text = " "
+        Item14.Text = " "
+        Item15.Text = " "
         IPU1.Text = ""
         IPU2.Text = ""
         IPU3.Text = ""
@@ -274,92 +274,122 @@ Public Class OreCalculator
         'TODO: This line of code loads data into the 'YHIDataSet.Mining_Prices' table. You can move, or remove it, as needed.
         Me.Mining_PricesTableAdapter.Fill(Me.YHIDataSet.Mining_Prices)
 
-        IPU1.Text = ""
-        IPU2.Text = ""
-        IPU3.Text = ""
-        IPU4.Text = ""
-        IPU5.Text = ""
-        IPU6.Text = ""
-        IPU7.Text = ""
-        IPU8.Text = ""
-        IPU9.Text = ""
-        IPU10.Text = ""
-        IPU11.Text = ""
-        IPU12.Text = ""
-        IPU13.Text = ""
-        IPU14.Text = ""
-        IPU15.Text = ""
+        IPU1.Text = " "
+        IPU2.Text = " "
+        IPU3.Text = " "
+        IPU4.Text = " "
+        IPU5.Text = " "
+        IPU6.Text = " "
+        IPU7.Text = " "
+        IPU8.Text = " "
+        IPU9.Text = " "
+        IPU10.Text = " "
+        IPU11.Text = " "
+        IPU12.Text = " "
+        IPU13.Text = " "
+        IPU14.Text = " "
+        IPU15.Text = " "
 
     End Sub
     Private Sub Item1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item1.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU1.Text = Item1.SelectedIndex.ToString()
+        If Item1.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item1.SelectedItem.Row
+            IPU1.Text = Source_Data.Price
+        End If
 
     End Sub
 
     Private Sub Item2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item2.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU2.Text = Item2.SelectedIndex.ToString()
+        If Item2.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item2.SelectedItem.Row
+            IPU2.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item3_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item3.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU3.Text = Item3.SelectedIndex.ToString()
+        If Item3.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item3.SelectedItem.Row
+            IPU3.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item4_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item4.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU4.Text = Item4.SelectedIndex.ToString()
+        If Item4.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item4.SelectedItem.Row
+            IPU4.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item5_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item5.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU5.Text = Item5.SelectedIndex.ToString()
+        If Item5.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item5.SelectedItem.Row
+            IPU5.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item6_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item6.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU6.Text = Item6.SelectedIndex.ToString()
+        If Item6.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item6.SelectedItem.Row
+            IPU6.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item7_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item7.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU7.Text = Item7.SelectedIndex.ToString()
+        If Item7.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item7.SelectedItem.Row
+            IPU7.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item8_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item8.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU8.Text = Item8.SelectedIndex.ToString()
+        If Item8.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item8.SelectedItem.Row
+            IPU8.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item9_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item9.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU9.Text = Item9.SelectedIndex.ToString()
+        If Item9.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item9.SelectedItem.Row
+            IPU9.Text = Source_Data.Price
+        End If
     End Sub
 
     Private Sub Item10_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item10.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU10.Text = Item10.SelectedIndex.ToString()
+        If Item10.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item10.SelectedItem.Row
+            IPU10.Text = Source_Data.Price
+        End If
     End Sub
     Private Sub Item11_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item11.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU11.Text = Item11.SelectedIndex.ToString()
+        If Item11.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item11.SelectedItem.Row
+            IPU11.Text = Source_Data.Price
+        End If
     End Sub
     Private Sub Item12_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item12.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU12.Text = Item12.SelectedIndex.ToString()
+        If Item12.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item12.SelectedItem.Row
+            IPU12.Text = Source_Data.Price
+        End If
     End Sub
     Private Sub Item13_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item13.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU13.Text = Item13.SelectedIndex.ToString()
+        If Item13.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item13.SelectedItem.Row
+            IPU13.Text = Source_Data.Price
+        End If
     End Sub
     Private Sub Item14_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item14.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU14.Text = Item14.SelectedIndex.ToString()
+        If Item14.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item14.SelectedItem.Row
+            IPU14.Text = Source_Data.Price
+        End If
     End Sub
     Private Sub Item15_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item15.SelectedIndexChanged
-        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
-        IPU15.Text = Item15.SelectedIndex.ToString()
+        If Item15.SelectedIndex > 0 Then
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item15.SelectedItem.Row
+            IPU15.Text = Source_Data.Price
+        End If
     End Sub
     Private Sub Submit_Button_Click(sender As Object, e As EventArgs) Handles Submit_Button.Click
         Mysqlconn = New MySqlConnection()
