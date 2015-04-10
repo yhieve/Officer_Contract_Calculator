@@ -139,6 +139,7 @@ Public Class PICalculator
         IskMade8.Text = "0"
         IskMade9.Text = "0"
         IskMade10.Text = "0"
+        Character_Name.Text = ""
         Total_Isk_Made.Text = ""
     End Sub
 

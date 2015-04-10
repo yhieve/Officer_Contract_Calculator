@@ -241,6 +241,7 @@ Public Class OreCalculator
         M3Made13.Text = "0"
         M3Made14.Text = "0"
         M3Made15.Text = "0"
+        Character_Name.Text = ""
         Total_Isk_Made.Text = ""
         Total_M3_Made.Text = ""
     End Sub
