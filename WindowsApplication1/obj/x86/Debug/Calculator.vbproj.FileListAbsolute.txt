@@ -106,3 +106,5 @@ C:\Users\Kenny\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\
 C:\Users\Kenny\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.PIPriceUpdate.resources
 C:\Users\Kenny\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Calculator.vbproj.GenerateResource.Cache
 C:\Users\Alex\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Calculator.vbprojResolveAssemblyReference.cache
+C:\Users\Kenny\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.OreAppraisleBox.resources
+C:\Users\Kenny\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.PIAppraisleBox.resources

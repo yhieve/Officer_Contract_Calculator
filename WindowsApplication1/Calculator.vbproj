@@ -66,6 +66,9 @@
   <PropertyGroup>
     <ApplicationIcon>98237322_128.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -111,10 +114,22 @@
     <Compile Include="OptionScreen.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="OreAppraisleBox.Designer.vb">
+      <DependentUpon>OreAppraisleBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OreAppraisleBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="OreCalculator.Designer.vb">
       <DependentUpon>OreCalculator.vb</DependentUpon>
     </Compile>
     <Compile Include="OreCalculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PIAppraisleBox.Designer.vb">
+      <DependentUpon>PIAppraisleBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PIAppraisleBox.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PICalculator.Designer.vb">
@@ -185,8 +200,14 @@
     <EmbeddedResource Include="OptionScreen.resx">
       <DependentUpon>OptionScreen.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OreAppraisleBox.resx">
+      <DependentUpon>OreAppraisleBox.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OreCalculator.resx">
       <DependentUpon>OreCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PIAppraisleBox.resx">
+      <DependentUpon>PIAppraisleBox.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PICalculator.resx">
       <DependentUpon>PICalculator.vb</DependentUpon>
@@ -217,6 +238,7 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

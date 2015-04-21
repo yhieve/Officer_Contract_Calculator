@@ -1,6 +1,9 @@
 ﻿Imports System.Configuration
 Imports MySql.Data.MySqlClient
 Imports System.IO
+Imports System
+Imports System.ComponentModel
+Imports System.Windows
 
 Public Class PICalculator
     Dim Mysqlconn As MySqlConnection
@@ -316,5 +319,10 @@ Public Class PICalculator
         Finally
             Mysqlconn.Dispose()
         End Try
+    End Sub
+    Private Sub Ore_Calculator_Closing(ByVal sender As Object, ByVal e As CancelEventArgs)
+        Dim myform As New OptionScreen
+        myform.Show()
+        Me.Close()
     End Sub
 End Class

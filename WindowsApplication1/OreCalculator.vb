@@ -1,6 +1,9 @@
 ﻿Imports System.Configuration
 Imports MySql.Data.MySqlClient
 Imports System.IO
+Imports System
+Imports System.ComponentModel
+Imports System.Windows
 
 Public Class OreCalculator
     Dim Mysqlconn As MySqlConnection
