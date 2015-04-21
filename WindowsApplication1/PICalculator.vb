@@ -8,6 +8,8 @@ Imports System.Windows
 Public Class PICalculator
     Dim Mysqlconn As MySqlConnection
     Dim cmd As MySqlCommand
+    Dim ItemNames As List(Of String) = New List(Of String)
+    Dim ItemAmounts As List(Of String) = New List(Of String)
 
     Private Sub Calc_Units1_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Units1.Leave
         If (IPU1.Text.Trim().Length = 0 Or Units1.Text.Trim().Length = 0) Then
@@ -324,5 +326,68 @@ Public Class PICalculator
         Dim myform As New OptionScreen
         myform.Show()
         Me.Close()
+    End Sub
+
+    Public Sub New(ItemNames As List(Of String), ItemAmounts As List(Of String))
+
+        ' This call is required by the designer.
+        InitializeComponent()
+        Me.ItemNames = ItemNames
+        Me.ItemAmounts = ItemAmounts
+
+    End Sub
+
+    Private Sub PICalculator_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+        If ItemNames.Count > 0 Then
+            Item1.Text = Me.ItemNames(0)
+            Units1.Text = Me.ItemAmounts(0)
+            IskMade1.Text = Convert.ToDecimal(IPU1.Text) * Convert.ToDecimal(Units1.Text)
+        End If
+        If ItemNames.Count > 1 Then
+            Item2.Text = Me.ItemNames(1)
+            Units2.Text = Me.ItemAmounts(1)
+            IskMade2.Text = Convert.ToDecimal(IPU2.Text) * Convert.ToDecimal(Units2.Text)
+        End If
+        If ItemNames.Count > 2 Then
+            Item3.Text = Me.ItemNames(2)
+            Units3.Text = Me.ItemAmounts(2)
+            IskMade3.Text = Convert.ToDecimal(IPU3.Text) * Convert.ToDecimal(Units3.Text)
+        End If
+        If ItemNames.Count > 3 Then
+            Item4.Text = Me.ItemNames(3)
+            Units4.Text = Me.ItemAmounts(3)
+            IskMade4.Text = Convert.ToDecimal(IPU4.Text) * Convert.ToDecimal(Units4.Text)
+        End If
+        If ItemNames.Count > 4 Then
+            Item5.Text = Me.ItemNames(4)
+            Units5.Text = Me.ItemAmounts(4)
+            IskMade5.Text = Convert.ToDecimal(IPU5.Text) * Convert.ToDecimal(Units5.Text)
+        End If
+        If ItemNames.Count > 5 Then
+            Item6.Text = Me.ItemNames(5)
+            Units6.Text = Me.ItemAmounts(5)
+            IskMade6.Text = Convert.ToDecimal(IPU6.Text) * Convert.ToDecimal(Units6.Text)
+        End If
+        If ItemNames.Count > 6 Then
+            Item7.Text = Me.ItemNames(6)
+            Units7.Text = Me.ItemAmounts(6)
+            IskMade7.Text = Convert.ToDecimal(IPU7.Text) * Convert.ToDecimal(Units7.Text)
+        End If
+        If ItemNames.Count > 7 Then
+            Item8.Text = Me.ItemNames(7)
+            Units8.Text = Me.ItemAmounts(7)
+            IskMade8.Text = Convert.ToDecimal(IPU8.Text) * Convert.ToDecimal(Units8.Text)
+        End If
+        If ItemNames.Count > 8 Then
+            Item9.Text = Me.ItemNames(8)
+            Units9.Text = Me.ItemAmounts(8)
+            IskMade9.Text = Convert.ToDecimal(IPU9.Text) * Convert.ToDecimal(Units9.Text)
+        End If
+        If ItemNames.Count > 9 Then
+            Item10.Text = Me.ItemNames(9)
+            Units10.Text = Me.ItemAmounts(9)
+            IskMade10.Text = Convert.ToDecimal(IPU10.Text) * Convert.ToDecimal(Units10.Text)
+        End If
+        Calc_Total_Isk_Made()
     End Sub
 End Class
