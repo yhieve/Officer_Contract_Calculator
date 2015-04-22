@@ -28,4 +28,11 @@ Public Class PIAppraisleBox
         Dim myform As New PICalculator(ItemNames, ItemAmounts)
         myform.Show()
     End Sub
+
+    Private Sub Skip_Click(sender As Object, e As EventArgs) Handles Skip.Click
+        Dim ItemNames As List(Of String) = New List(Of String)
+        Dim ItemAmounts As List(Of String) = New List(Of String)
+        Dim myform As New PICalculator(ItemNames, ItemAmounts)
+        myform.Show()
+    End Sub
 End Class
