@@ -11,11 +11,17 @@ Public Class PICalculator
     Dim ItemNames As List(Of String) = New List(Of String)
     Dim ItemAmounts As List(Of String) = New List(Of String)
 
+
     Private Sub Calc_Units1_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Units1.Leave
         If (IPU1.Text.Trim().Length = 0 Or Units1.Text.Trim().Length = 0) Then
             IskMade1.Text = 0
         Else
-            IskMade1.Text = Convert.ToDecimal(IPU1.Text) * Convert.ToDecimal(Units1.Text)
+            Dim var1 As Decimal
+            Dim unit1 As Integer
+            var1 = Convert.ToDecimal(IPU1.Text) * Convert.ToDecimal(Units1.Text)
+            unit1 = Convert.ToDecimal(Units1.Text)
+            IskMade1.Text = var1.ToString("#,##0.00")
+            Units1.Text = unit1.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -23,7 +29,12 @@ Public Class PICalculator
         If (IPU2.Text.Trim().Length = 0 Or Units2.Text.Trim().Length = 0) Then
             IskMade2.Text = 0
         Else
-            IskMade2.Text = Convert.ToDecimal(IPU2.Text) * Convert.ToDecimal(Units2.Text)
+            Dim var2 As Decimal
+            Dim unit2 As Integer
+            var2 = Convert.ToDecimal(IPU2.Text) * Convert.ToDecimal(Units2.Text)
+            unit2 = Convert.ToDecimal(Units2.Text)
+            IskMade2.Text = var2.ToString("#,##0.00")
+            Units2.Text = unit2.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -31,7 +42,12 @@ Public Class PICalculator
         If (IPU3.Text.Trim().Length = 0 Or Units3.Text.Trim().Length = 0) Then
             IskMade3.Text = 0
         Else
-            IskMade3.Text = Convert.ToDecimal(IPU3.Text) * Convert.ToDecimal(Units3.Text)
+            Dim var3 As Decimal
+            Dim unit3 As Integer
+            var3 = Convert.ToDecimal(IPU3.Text) * Convert.ToDecimal(Units3.Text)
+            unit3 = Convert.ToDecimal(Units3.Text)
+            IskMade3.Text = var3.ToString("#,##0.00")
+            Units3.Text = unit3.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -39,7 +55,12 @@ Public Class PICalculator
         If (IPU4.Text.Trim().Length = 0 Or Units4.Text.Trim().Length = 0) Then
             IskMade4.Text = 0
         Else
-            IskMade4.Text = Convert.ToDecimal(IPU4.Text) * Convert.ToDecimal(Units4.Text)
+            Dim var4 As Decimal
+            Dim unit4 As Integer
+            var4 = Convert.ToDecimal(IPU4.Text) * Convert.ToDecimal(Units4.Text)
+            unit4 = Convert.ToDecimal(Units4.Text)
+            IskMade4.Text = var4.ToString("#,##0.00")
+            Units4.Text = unit4.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -47,7 +68,12 @@ Public Class PICalculator
         If (IPU5.Text.Trim().Length = 0 Or Units5.Text.Trim().Length = 0) Then
             IskMade5.Text = 0
         Else
-            IskMade5.Text = Convert.ToDecimal(IPU5.Text) * Convert.ToDecimal(Units5.Text)
+            Dim var5 As Decimal
+            Dim unit5 As Integer
+            var5 = Convert.ToDecimal(IPU5.Text) * Convert.ToDecimal(Units5.Text)
+            unit5 = Convert.ToDecimal(Units5.Text)
+            IskMade5.Text = var5.ToString("#,##0.00")
+            Units5.Text = unit5.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -55,7 +81,12 @@ Public Class PICalculator
         If (IPU6.Text.Trim().Length = 0 Or Units6.Text.Trim().Length = 0) Then
             IskMade6.Text = 0
         Else
-            IskMade6.Text = Convert.ToDecimal(IPU6.Text) * Convert.ToDecimal(Units6.Text)
+            Dim var6 As Decimal
+            Dim unit6 As Integer
+            var6 = Convert.ToDecimal(IPU6.Text) * Convert.ToDecimal(Units6.Text)
+            unit6 = Convert.ToDecimal(Units6.Text)
+            IskMade6.Text = var6.ToString("#,##0.00")
+            Units6.Text = unit6.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -63,7 +94,12 @@ Public Class PICalculator
         If (IPU7.Text.Trim().Length = 0 Or Units7.Text.Trim().Length = 0) Then
             IskMade7.Text = 0
         Else
-            IskMade7.Text = Convert.ToDecimal(IPU7.Text) * Convert.ToDecimal(Units7.Text)
+            Dim var7 As Decimal
+            Dim unit7 As Integer
+            var7 = Convert.ToDecimal(IPU7.Text) * Convert.ToDecimal(Units7.Text)
+            unit7 = Convert.ToDecimal(Units7.Text)
+            IskMade7.Text = var7.ToString("#,##0.00")
+            Units7.Text = unit7.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -71,7 +107,12 @@ Public Class PICalculator
         If (IPU8.Text.Trim().Length = 0 Or Units8.Text.Trim().Length = 0) Then
             IskMade8.Text = 0
         Else
-            IskMade8.Text = Convert.ToDecimal(IPU8.Text) * Convert.ToDecimal(Units8.Text)
+            Dim var8 As Decimal
+            Dim unit8 As Integer
+            var8 = Convert.ToDecimal(IPU8.Text) * Convert.ToDecimal(Units8.Text)
+            unit8 = Convert.ToDecimal(Units8.Text)
+            IskMade8.Text = var8.ToString("#,##0.00")
+            Units8.Text = unit8.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -79,7 +120,12 @@ Public Class PICalculator
         If (IPU9.Text.Trim().Length = 0 Or Units9.Text.Trim().Length = 0) Then
             IskMade9.Text = 0
         Else
-            IskMade9.Text = Convert.ToDecimal(IPU9.Text) * Convert.ToDecimal(Units9.Text)
+            Dim var9 As Decimal
+            Dim unit9 As Integer
+            var9 = Convert.ToDecimal(IPU9.Text) * Convert.ToDecimal(Units9.Text)
+            unit9 = Convert.ToDecimal(Units9.Text)
+            IskMade9.Text = var9.ToString("#,##0.00")
+            Units9.Text = unit9.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -87,12 +133,18 @@ Public Class PICalculator
         If (IPU10.Text.Trim().Length = 0 Or Units10.Text.Trim().Length = 0) Then
             IskMade10.Text = 0
         Else
-            IskMade10.Text = Convert.ToDecimal(IPU10.Text) * Convert.ToDecimal(Units10.Text)
+            Dim var10 As Decimal
+            Dim unit10 As Integer
+            var10 = Convert.ToDecimal(IPU10.Text) * Convert.ToDecimal(Units10.Text)
+            unit10 = Convert.ToDecimal(Units10.Text)
+            IskMade10.Text = var10.ToString("#,##0.00")
+            Units10.Text = unit10.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
     Private Sub Calc_Total_Isk_Made()
-        Total_Isk_Made.Text = Convert.ToDecimal(IskMade1.Text) +
+        Dim vartotal As Decimal
+        vartotal = Convert.ToDecimal(IskMade1.Text) +
             Convert.ToDecimal(IskMade2.Text) +
             Convert.ToDecimal(IskMade3.Text) +
             Convert.ToDecimal(IskMade4.Text) +
@@ -102,6 +154,7 @@ Public Class PICalculator
             Convert.ToDecimal(IskMade8.Text) +
             Convert.ToDecimal(IskMade9.Text) +
             Convert.ToDecimal(IskMade10.Text)
+        Total_Isk_Made.Text = vartotal.ToString("#,##0.00")
     End Sub
     Private Sub Clear_All_Button_Click(sender As Object, e As EventArgs) Handles Clear_All_Button.Click
         Item1.Text = ""
