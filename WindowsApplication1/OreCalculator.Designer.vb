@@ -774,7 +774,7 @@ Partial Class OreCalculator
         'Total_M3_Made
         '
         Me.Total_M3_Made.BackColor = System.Drawing.SystemColors.Window
-        Me.Total_M3_Made.Location = New System.Drawing.Point(652, 55)
+        Me.Total_M3_Made.Location = New System.Drawing.Point(966, 54)
         Me.Total_M3_Made.Name = "Total_M3_Made"
         Me.Total_M3_Made.ReadOnly = True
         Me.Total_M3_Made.Size = New System.Drawing.Size(176, 26)
@@ -784,7 +784,7 @@ Partial Class OreCalculator
         'Total_M3_Made_Label
         '
         Me.Total_M3_Made_Label.AutoSize = True
-        Me.Total_M3_Made_Label.Location = New System.Drawing.Point(532, 55)
+        Me.Total_M3_Made_Label.Location = New System.Drawing.Point(846, 54)
         Me.Total_M3_Made_Label.Name = "Total_M3_Made_Label"
         Me.Total_M3_Made_Label.Size = New System.Drawing.Size(114, 20)
         Me.Total_M3_Made_Label.TabIndex = 164
@@ -1047,7 +1047,7 @@ Partial Class OreCalculator
         'Total_Isk_Made
         '
         Me.Total_Isk_Made.BackColor = System.Drawing.SystemColors.Window
-        Me.Total_Isk_Made.Location = New System.Drawing.Point(296, 55)
+        Me.Total_Isk_Made.Location = New System.Drawing.Point(610, 54)
         Me.Total_Isk_Made.Name = "Total_Isk_Made"
         Me.Total_Isk_Made.ReadOnly = True
         Me.Total_Isk_Made.Size = New System.Drawing.Size(176, 26)
@@ -1057,7 +1057,7 @@ Partial Class OreCalculator
         'Total_Isk_Made_Label
         '
         Me.Total_Isk_Made_Label.AutoSize = True
-        Me.Total_Isk_Made_Label.Location = New System.Drawing.Point(176, 55)
+        Me.Total_Isk_Made_Label.Location = New System.Drawing.Point(490, 54)
         Me.Total_Isk_Made_Label.Name = "Total_Isk_Made_Label"
         Me.Total_Isk_Made_Label.Size = New System.Drawing.Size(113, 20)
         Me.Total_Isk_Made_Label.TabIndex = 158
@@ -1148,7 +1148,7 @@ Partial Class OreCalculator
         'Character_Name
         '
         Me.Character_Name.BackColor = System.Drawing.SystemColors.Window
-        Me.Character_Name.Location = New System.Drawing.Point(474, 11)
+        Me.Character_Name.Location = New System.Drawing.Point(239, 54)
         Me.Character_Name.Name = "Character_Name"
         Me.Character_Name.Size = New System.Drawing.Size(176, 26)
         Me.Character_Name.TabIndex = 0
@@ -1157,7 +1157,7 @@ Partial Class OreCalculator
         'Character_Name_Label
         '
         Me.Character_Name_Label.AutoSize = True
-        Me.Character_Name_Label.Location = New System.Drawing.Point(388, 11)
+        Me.Character_Name_Label.Location = New System.Drawing.Point(153, 54)
         Me.Character_Name_Label.Name = "Character_Name_Label"
         Me.Character_Name_Label.Size = New System.Drawing.Size(79, 20)
         Me.Character_Name_Label.TabIndex = 166
