@@ -93,7 +93,7 @@ ORDER BY Item</CommandText>
   <xs:element name="YHIDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="YHIDataSet" msprop:Generator_UserDSName="YHIDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Mining_Prices" msprop:Generator_TableClassName="Mining_PricesDataTable" msprop:Generator_TableVarName="tableMining_Prices" msprop:Generator_TablePropName="Mining_Prices" msprop:Generator_RowDeletingName="Mining_PricesRowDeleting" msprop:Generator_RowChangingName="Mining_PricesRowChanging" msprop:Generator_RowEvHandlerName="Mining_PricesRowChangeEventHandler" msprop:Generator_RowDeletedName="Mining_PricesRowDeleted" msprop:Generator_UserTableName="Mining_Prices" msprop:Generator_RowChangedName="Mining_PricesRowChanged" msprop:Generator_RowEvArgName="Mining_PricesRowChangeEvent" msprop:Generator_RowClassName="Mining_PricesRow">
+        <xs:element name="Mining_Prices" msprop:Generator_TableClassName="Mining_PricesDataTable" msprop:Generator_TableVarName="tableMining_Prices" msprop:Generator_RowChangedName="Mining_PricesRowChanged" msprop:Generator_TablePropName="Mining_Prices" msprop:Generator_RowDeletingName="Mining_PricesRowDeleting" msprop:Generator_RowChangingName="Mining_PricesRowChanging" msprop:Generator_RowEvHandlerName="Mining_PricesRowChangeEventHandler" msprop:Generator_RowDeletedName="Mining_PricesRowDeleted" msprop:Generator_RowClassName="Mining_PricesRow" msprop:Generator_UserTableName="Mining_Prices" msprop:Generator_RowEvArgName="Mining_PricesRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Item" msprop:Generator_ColumnVarNameInTable="columnItem" msprop:Generator_ColumnPropNameInRow="Item" msprop:Generator_ColumnPropNameInTable="ItemColumn" msprop:Generator_UserColumnName="Item" minOccurs="0">
@@ -108,7 +108,7 @@ ORDER BY Item</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="PI_Prices" msprop:Generator_TableClassName="PI_PricesDataTable" msprop:Generator_TableVarName="tablePI_Prices" msprop:Generator_TablePropName="PI_Prices" msprop:Generator_RowDeletingName="PI_PricesRowDeleting" msprop:Generator_RowChangingName="PI_PricesRowChanging" msprop:Generator_RowEvHandlerName="PI_PricesRowChangeEventHandler" msprop:Generator_RowDeletedName="PI_PricesRowDeleted" msprop:Generator_UserTableName="PI_Prices" msprop:Generator_RowChangedName="PI_PricesRowChanged" msprop:Generator_RowEvArgName="PI_PricesRowChangeEvent" msprop:Generator_RowClassName="PI_PricesRow">
+        <xs:element name="PI_Prices" msprop:Generator_TableClassName="PI_PricesDataTable" msprop:Generator_TableVarName="tablePI_Prices" msprop:Generator_RowChangedName="PI_PricesRowChanged" msprop:Generator_TablePropName="PI_Prices" msprop:Generator_RowDeletingName="PI_PricesRowDeleting" msprop:Generator_RowChangingName="PI_PricesRowChanging" msprop:Generator_RowEvHandlerName="PI_PricesRowChangeEventHandler" msprop:Generator_RowDeletedName="PI_PricesRowDeleted" msprop:Generator_RowClassName="PI_PricesRow" msprop:Generator_UserTableName="PI_Prices" msprop:Generator_RowEvArgName="PI_PricesRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Item" msprop:Generator_ColumnVarNameInTable="columnItem" msprop:Generator_ColumnPropNameInRow="Item" msprop:Generator_ColumnPropNameInTable="ItemColumn" msprop:Generator_UserColumnName="Item">
@@ -119,6 +119,7 @@ ORDER BY Item</CommandText>
                 </xs:simpleType>
               </xs:element>
               <xs:element name="Price" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnPropNameInTable="PriceColumn" msprop:Generator_UserColumnName="Price" type="xs:decimal" />
+              <xs:element name="M3" msprop:Generator_ColumnVarNameInTable="columnM3" msprop:Generator_ColumnPropNameInRow="M3" msprop:Generator_ColumnPropNameInTable="M3Column" msprop:Generator_UserColumnName="M3" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

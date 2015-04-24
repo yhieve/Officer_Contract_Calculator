@@ -16,8 +16,12 @@ Public Class OreCalculator
         If (IPU1.Text.Trim().Length = 0 Or Units1.Text.Trim().Length = 0) Then
             IskMade1.Text = 0
         Else
-            IskMade1.Text = Convert.ToDecimal(IPU1.Text) * Convert.ToDecimal(Units1.Text)
-            M3Made1.Text = Convert.ToDecimal(Units1.Text) * Convert.ToDecimal(Item1.SelectedValue)
+            Dim var1 As Decimal
+            Dim unit1 As Integer
+            var1 = Convert.ToDecimal(IPU1.Text) * Convert.ToDecimal(Units1.Text)
+            unit1 = Convert.ToDecimal(Units1.Text)
+            IskMade1.Text = var1.ToString("#,##0.00")
+            Units1.Text = unit1.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -25,8 +29,12 @@ Public Class OreCalculator
         If (IPU2.Text.Trim().Length = 0 Or Units2.Text.Trim().Length = 0) Then
             IskMade2.Text = 0
         Else
-            IskMade2.Text = Convert.ToDecimal(IPU2.Text) * Convert.ToDecimal(Units2.Text)
-            M3Made2.Text = Convert.ToDecimal(Units2.Text) * Convert.ToDecimal(Item2.SelectedValue)
+            Dim var2 As Decimal
+            Dim unit2 As Integer
+            var2 = Convert.ToDecimal(IPU2.Text) * Convert.ToDecimal(Units2.Text)
+            unit2 = Convert.ToDecimal(Units2.Text)
+            IskMade2.Text = var2.ToString("#,##0.00")
+            Units2.Text = unit2.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -34,8 +42,12 @@ Public Class OreCalculator
         If (IPU3.Text.Trim().Length = 0 Or Units3.Text.Trim().Length = 0) Then
             IskMade3.Text = 0
         Else
-            IskMade3.Text = Convert.ToDecimal(IPU3.Text) * Convert.ToDecimal(Units3.Text)
-            M3Made3.Text = Convert.ToDecimal(Units3.Text) * Convert.ToDecimal(Item3.SelectedValue)
+            Dim var3 As Decimal
+            Dim unit3 As Integer
+            var3 = Convert.ToDecimal(IPU3.Text) * Convert.ToDecimal(Units3.Text)
+            unit3 = Convert.ToDecimal(Units3.Text)
+            IskMade3.Text = var3.ToString("#,##0.00")
+            Units3.Text = unit3.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -43,8 +55,12 @@ Public Class OreCalculator
         If (IPU4.Text.Trim().Length = 0 Or Units4.Text.Trim().Length = 0) Then
             IskMade4.Text = 0
         Else
-            IskMade4.Text = Convert.ToDecimal(IPU4.Text) * Convert.ToDecimal(Units4.Text)
-            M3Made4.Text = Convert.ToDecimal(Units4.Text) * Convert.ToDecimal(Item4.SelectedValue)
+            Dim var4 As Decimal
+            Dim unit4 As Integer
+            var4 = Convert.ToDecimal(IPU4.Text) * Convert.ToDecimal(Units4.Text)
+            unit4 = Convert.ToDecimal(Units4.Text)
+            IskMade4.Text = var4.ToString("#,##0.00")
+            Units4.Text = unit4.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -52,8 +68,12 @@ Public Class OreCalculator
         If (IPU5.Text.Trim().Length = 0 Or Units5.Text.Trim().Length = 0) Then
             IskMade5.Text = 0
         Else
-            IskMade5.Text = Convert.ToDecimal(IPU5.Text) * Convert.ToDecimal(Units5.Text)
-            M3Made5.Text = Convert.ToDecimal(Units5.Text) * Convert.ToDecimal(Item5.SelectedValue)
+            Dim var5 As Decimal
+            Dim unit5 As Integer
+            var5 = Convert.ToDecimal(IPU5.Text) * Convert.ToDecimal(Units5.Text)
+            unit5 = Convert.ToDecimal(Units5.Text)
+            IskMade5.Text = var5.ToString("#,##0.00")
+            Units5.Text = unit5.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -61,8 +81,12 @@ Public Class OreCalculator
         If (IPU6.Text.Trim().Length = 0 Or Units6.Text.Trim().Length = 0) Then
             IskMade6.Text = 0
         Else
-            IskMade6.Text = Convert.ToDecimal(IPU6.Text) * Convert.ToDecimal(Units6.Text)
-            M3Made6.Text = Convert.ToDecimal(Units6.Text) * Convert.ToDecimal(Item6.SelectedValue)
+            Dim var6 As Decimal
+            Dim unit6 As Integer
+            var6 = Convert.ToDecimal(IPU6.Text) * Convert.ToDecimal(Units6.Text)
+            unit6 = Convert.ToDecimal(Units6.Text)
+            IskMade6.Text = var6.ToString("#,##0.00")
+            Units6.Text = unit6.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -70,8 +94,12 @@ Public Class OreCalculator
         If (IPU7.Text.Trim().Length = 0 Or Units7.Text.Trim().Length = 0) Then
             IskMade7.Text = 0
         Else
-            IskMade7.Text = Convert.ToDecimal(IPU7.Text) * Convert.ToDecimal(Units7.Text)
-            M3Made7.Text = Convert.ToDecimal(Units7.Text) * Convert.ToDecimal(Item7.SelectedValue)
+            Dim var7 As Decimal
+            Dim unit7 As Integer
+            var7 = Convert.ToDecimal(IPU7.Text) * Convert.ToDecimal(Units7.Text)
+            unit7 = Convert.ToDecimal(Units7.Text)
+            IskMade7.Text = var7.ToString("#,##0.00")
+            Units7.Text = unit7.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -79,8 +107,12 @@ Public Class OreCalculator
         If (IPU8.Text.Trim().Length = 0 Or Units8.Text.Trim().Length = 0) Then
             IskMade8.Text = 0
         Else
-            IskMade8.Text = Convert.ToDecimal(IPU8.Text) * Convert.ToDecimal(Units8.Text)
-            M3Made8.Text = Convert.ToDecimal(Units8.Text) * Convert.ToDecimal(Item8.SelectedValue)
+            Dim var8 As Decimal
+            Dim unit8 As Integer
+            var8 = Convert.ToDecimal(IPU8.Text) * Convert.ToDecimal(Units8.Text)
+            unit8 = Convert.ToDecimal(Units8.Text)
+            IskMade8.Text = var8.ToString("#,##0.00")
+            Units8.Text = unit8.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -88,8 +120,12 @@ Public Class OreCalculator
         If (IPU9.Text.Trim().Length = 0 Or Units9.Text.Trim().Length = 0) Then
             IskMade9.Text = 0
         Else
-            IskMade9.Text = Convert.ToDecimal(IPU9.Text) * Convert.ToDecimal(Units9.Text)
-            M3Made9.Text = Convert.ToDecimal(Units9.Text) * Convert.ToDecimal(Item9.SelectedValue)
+            Dim var9 As Decimal
+            Dim unit9 As Integer
+            var9 = Convert.ToDecimal(IPU9.Text) * Convert.ToDecimal(Units9.Text)
+            unit9 = Convert.ToDecimal(Units9.Text)
+            IskMade9.Text = var9.ToString("#,##0.00")
+            Units9.Text = unit9.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -97,17 +133,25 @@ Public Class OreCalculator
         If (IPU10.Text.Trim().Length = 0 Or Units10.Text.Trim().Length = 0) Then
             IskMade10.Text = 0
         Else
-            IskMade10.Text = Convert.ToDecimal(IPU10.Text) * Convert.ToDecimal(Units10.Text)
-            M3Made10.Text = Convert.ToDecimal(Units10.Text) * Convert.ToDecimal(Item10.SelectedValue)
+            Dim var10 As Decimal
+            Dim unit10 As Integer
+            var10 = Convert.ToDecimal(IPU10.Text) * Convert.ToDecimal(Units10.Text)
+            unit10 = Convert.ToDecimal(Units10.Text)
+            IskMade10.Text = var10.ToString("#,##0.00")
+            Units10.Text = unit10.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
-    Private Sub Calc_Units11_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Units10.Leave
-        If (IPU11.Text.Trim().Length = 0 Or Units11.Text.Trim().Length = 0) Then
+    Private Sub Calc_Units11_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Units11.Leave
+        If (IPU11.Text.Trim().Length = 0 Or Units10.Text.Trim().Length = 0) Then
             IskMade11.Text = 0
         Else
-            IskMade11.Text = Convert.ToDecimal(IPU11.Text) * Convert.ToDecimal(Units11.Text)
-            M3Made11.Text = Convert.ToDecimal(Units11.Text) * Convert.ToDecimal(Item11.SelectedValue)
+            Dim var11 As Decimal
+            Dim unit11 As Integer
+            var11 = Convert.ToDecimal(IPU11.Text) * Convert.ToDecimal(Units11.Text)
+            unit11 = Convert.ToDecimal(Units11.Text)
+            IskMade11.Text = var11.ToString("#,##0.00")
+            Units11.Text = unit11.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -115,8 +159,12 @@ Public Class OreCalculator
         If (IPU12.Text.Trim().Length = 0 Or Units12.Text.Trim().Length = 0) Then
             IskMade12.Text = 0
         Else
-            IskMade12.Text = Convert.ToDecimal(IPU12.Text) * Convert.ToDecimal(Units12.Text)
-            M3Made12.Text = Convert.ToDecimal(Units12.Text) * Convert.ToDecimal(Item12.SelectedValue)
+            Dim var12 As Decimal
+            Dim unit12 As Integer
+            var12 = Convert.ToDecimal(IPU12.Text) * Convert.ToDecimal(Units12.Text)
+            unit12 = Convert.ToDecimal(Units12.Text)
+            IskMade12.Text = var12.ToString("#,##0.00")
+            Units12.Text = unit12.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -124,8 +172,12 @@ Public Class OreCalculator
         If (IPU13.Text.Trim().Length = 0 Or Units13.Text.Trim().Length = 0) Then
             IskMade13.Text = 0
         Else
-            IskMade13.Text = Convert.ToDecimal(IPU13.Text) * Convert.ToDecimal(Units13.Text)
-            M3Made13.Text = Convert.ToDecimal(Units13.Text) * Convert.ToDecimal(Item13.SelectedValue)
+            Dim var13 As Decimal
+            Dim unit13 As Integer
+            var13 = Convert.ToDecimal(IPU13.Text) * Convert.ToDecimal(Units13.Text)
+            unit13 = Convert.ToDecimal(Units13.Text)
+            IskMade13.Text = var13.ToString("#,##0.00")
+            Units13.Text = unit13.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -133,8 +185,25 @@ Public Class OreCalculator
         If (IPU14.Text.Trim().Length = 0 Or Units14.Text.Trim().Length = 0) Then
             IskMade14.Text = 0
         Else
-            IskMade14.Text = Convert.ToDecimal(IPU14.Text) * Convert.ToDecimal(Units14.Text)
-            M3Made14.Text = Convert.ToDecimal(Units14.Text) * Convert.ToDecimal(Item14.SelectedValue)
+            Dim var14 As Decimal
+            Dim unit14 As Integer
+            var14 = Convert.ToDecimal(IPU14.Text) * Convert.ToDecimal(Units14.Text)
+            unit14 = Convert.ToDecimal(Units14.Text)
+            IskMade14.Text = var14.ToString("#,##0.00")
+            Units14.Text = unit14.ToString("#,##0.00")
+            Calc_Total_Isk_Made()
+        End If
+    End Sub
+    Private Sub Calc_Units15_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Units15.Leave
+        If (IPU15.Text.Trim().Length = 0 Or Units15.Text.Trim().Length = 0) Then
+            IskMade15.Text = 0
+        Else
+            Dim var15 As Decimal
+            Dim unit15 As Integer
+            var15 = Convert.ToDecimal(IPU15.Text) * Convert.ToDecimal(Units15.Text)
+            unit15 = Convert.ToDecimal(Units15.Text)
+            IskMade15.Text = var15.ToString("#,##0.00")
+            Units15.Text = unit15.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -422,62 +491,92 @@ Public Class OreCalculator
                 cmd.Parameters("@item1").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units1", Units1.Text)
                 cmd.Parameters("@units1").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m31", M3Made1.Text)
+                cmd.Parameters("@m31").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@item2", Item2.Text)
                 cmd.Parameters("@item2").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units2", Units2.Text)
                 cmd.Parameters("@units2").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m32", M3Made2.Text)
+                cmd.Parameters("@m32").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@item3", Item3.Text)
                 cmd.Parameters("@item3").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units3", Units3.Text)
                 cmd.Parameters("@units3").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m33", M3Made3.Text)
+                cmd.Parameters("@m33").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@item4", Item4.Text)
                 cmd.Parameters("@item4").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units4", Units4.Text)
                 cmd.Parameters("@units4").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m34", M3Made4.Text)
+                cmd.Parameters("@m34").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@item5", Item5.Text)
                 cmd.Parameters("@item5").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units5", Units5.Text)
                 cmd.Parameters("@units5").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m35", M3Made5.Text)
+                cmd.Parameters("@m35").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@item6", Item6.Text)
                 cmd.Parameters("@item6").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units6", Units6.Text)
                 cmd.Parameters("@units6").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m36", M3Made6.Text)
+                cmd.Parameters("@m36").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@item7", Item7.Text)
                 cmd.Parameters("@item7").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units7", Units7.Text)
                 cmd.Parameters("@units7").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m37", M3Made7.Text)
+                cmd.Parameters("@m37").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@item8", Item8.Text)
                 cmd.Parameters("@item8").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units8", Units8.Text)
                 cmd.Parameters("@units8").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m38", M3Made8.Text)
+                cmd.Parameters("@m38").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@item9", Item9.Text)
                 cmd.Parameters("@item9").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units9", Units9.Text)
                 cmd.Parameters("@units9").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m39", M3Made9.Text)
+                cmd.Parameters("@m39").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@item10", Item10.Text)
                 cmd.Parameters("@item10").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units10", Units10.Text)
                 cmd.Parameters("@units10").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m310", M3Made10.Text)
+                cmd.Parameters("@m310").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@item11", Item11.Text)
                 cmd.Parameters("@item11").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units11", Units11.Text)
                 cmd.Parameters("@units11").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m311", M3Made11.Text)
+                cmd.Parameters("@m311").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@item12", Item12.Text)
                 cmd.Parameters("@item12").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units12", Units12.Text)
                 cmd.Parameters("@units12").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m312", M3Made12.Text)
+                cmd.Parameters("@m312").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@item13", Item13.Text)
                 cmd.Parameters("@item13").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units13", Units13.Text)
                 cmd.Parameters("@units13").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m313", M3Made13.Text)
+                cmd.Parameters("@m313").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@item14", Item14.Text)
                 cmd.Parameters("@item14").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units14", Units14.Text)
                 cmd.Parameters("@units14").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m314", M3Made14.Text)
+                cmd.Parameters("@m314").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@item15", Item15.Text)
                 cmd.Parameters("@item15").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("@units15", Units15.Text)
                 cmd.Parameters("@units15").Direction = ParameterDirection.Input
+                cmd.Parameters.AddWithValue("@m315", M3Made15.Text)
+                cmd.Parameters("@m315").Direction = ParameterDirection.Input
 
                 cmd.ExecuteNonQuery()
                 MessageBox.Show("Ore counts for " & Character_Name.Text & " imported successfully")
