@@ -34,6 +34,7 @@ Partial Class OptionScreen
         '
         'Ore_Calculator_Button
         '
+        Me.Ore_Calculator_Button.AutoSize = True
         Me.Ore_Calculator_Button.Location = New System.Drawing.Point(38, 34)
         Me.Ore_Calculator_Button.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Ore_Calculator_Button.Name = "Ore_Calculator_Button"

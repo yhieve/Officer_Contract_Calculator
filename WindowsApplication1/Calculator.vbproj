@@ -151,6 +151,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>YHIDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="YHIDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YHIDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Z_Old_OreCalculator.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -274,6 +279,17 @@
     </None>
     <None Include="YHIDataSet1.xss">
       <DependentUpon>YHIDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="YHIDataSet2.xsc">
+      <DependentUpon>YHIDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="YHIDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YHIDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YHIDataSet2.xss">
+      <DependentUpon>YHIDataSet2.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

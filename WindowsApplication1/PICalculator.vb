@@ -19,10 +19,13 @@ Public Class PICalculator
         Else
             Dim var1 As Decimal
             Dim unit1 As Integer
+            Dim m31 As Decimal
             var1 = Convert.ToDecimal(IPU1.Text) * Convert.ToDecimal(Units1.Text)
             unit1 = Convert.ToDecimal(Units1.Text)
+            m31 = Convert.ToDecimal(M3PU1.Text) * Convert.ToDecimal(Units1.Text)
             IskMade1.Text = var1.ToString("#,##0.00")
             Units1.Text = unit1.ToString("#,##0.00")
+            M3Made1.Text = m31.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -32,10 +35,13 @@ Public Class PICalculator
         Else
             Dim var2 As Decimal
             Dim unit2 As Integer
+            Dim m32 As Decimal
             var2 = Convert.ToDecimal(IPU2.Text) * Convert.ToDecimal(Units2.Text)
             unit2 = Convert.ToDecimal(Units2.Text)
+            m32 = Convert.ToDecimal(M3PU2.Text) * Convert.ToDecimal(Units2.Text)
             IskMade2.Text = var2.ToString("#,##0.00")
             Units2.Text = unit2.ToString("#,##0.00")
+            M3Made2.Text = m32.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -45,10 +51,13 @@ Public Class PICalculator
         Else
             Dim var3 As Decimal
             Dim unit3 As Integer
+            Dim m33 As Decimal
             var3 = Convert.ToDecimal(IPU3.Text) * Convert.ToDecimal(Units3.Text)
             unit3 = Convert.ToDecimal(Units3.Text)
+            m33 = Convert.ToDecimal(M3PU3.Text) * Convert.ToDecimal(Units3.Text)
             IskMade3.Text = var3.ToString("#,##0.00")
             Units3.Text = unit3.ToString("#,##0.00")
+            M3Made3.Text = m33.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -58,10 +67,13 @@ Public Class PICalculator
         Else
             Dim var4 As Decimal
             Dim unit4 As Integer
+            Dim m34 As Decimal
             var4 = Convert.ToDecimal(IPU4.Text) * Convert.ToDecimal(Units4.Text)
             unit4 = Convert.ToDecimal(Units4.Text)
+            m34 = Convert.ToDecimal(M3PU4.Text) * Convert.ToDecimal(Units4.Text)
             IskMade4.Text = var4.ToString("#,##0.00")
             Units4.Text = unit4.ToString("#,##0.00")
+            M3Made4.Text = m34.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -71,10 +83,13 @@ Public Class PICalculator
         Else
             Dim var5 As Decimal
             Dim unit5 As Integer
+            Dim m35 As Decimal
             var5 = Convert.ToDecimal(IPU5.Text) * Convert.ToDecimal(Units5.Text)
             unit5 = Convert.ToDecimal(Units5.Text)
+            m35 = Convert.ToDecimal(M3PU5.Text) * Convert.ToDecimal(Units5.Text)
             IskMade5.Text = var5.ToString("#,##0.00")
             Units5.Text = unit5.ToString("#,##0.00")
+            M3Made5.Text = m35.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -84,10 +99,13 @@ Public Class PICalculator
         Else
             Dim var6 As Decimal
             Dim unit6 As Integer
+            Dim m36 As Decimal
             var6 = Convert.ToDecimal(IPU6.Text) * Convert.ToDecimal(Units6.Text)
             unit6 = Convert.ToDecimal(Units6.Text)
+            m36 = Convert.ToDecimal(M3PU6.Text) * Convert.ToDecimal(Units6.Text)
             IskMade6.Text = var6.ToString("#,##0.00")
             Units6.Text = unit6.ToString("#,##0.00")
+            M3Made6.Text = m36.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -97,10 +115,13 @@ Public Class PICalculator
         Else
             Dim var7 As Decimal
             Dim unit7 As Integer
+            Dim m37 As Decimal
             var7 = Convert.ToDecimal(IPU7.Text) * Convert.ToDecimal(Units7.Text)
             unit7 = Convert.ToDecimal(Units7.Text)
+            m37 = Convert.ToDecimal(M3PU7.Text) * Convert.ToDecimal(Units7.Text)
             IskMade7.Text = var7.ToString("#,##0.00")
             Units7.Text = unit7.ToString("#,##0.00")
+            M3Made7.Text = m37.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -110,10 +131,13 @@ Public Class PICalculator
         Else
             Dim var8 As Decimal
             Dim unit8 As Integer
+            Dim m38 As Decimal
             var8 = Convert.ToDecimal(IPU8.Text) * Convert.ToDecimal(Units8.Text)
             unit8 = Convert.ToDecimal(Units8.Text)
+            m38 = Convert.ToDecimal(M3PU8.Text) * Convert.ToDecimal(Units8.Text)
             IskMade8.Text = var8.ToString("#,##0.00")
             Units8.Text = unit8.ToString("#,##0.00")
+            M3Made8.Text = m38.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -123,10 +147,13 @@ Public Class PICalculator
         Else
             Dim var9 As Decimal
             Dim unit9 As Integer
+            Dim m39 As Decimal
             var9 = Convert.ToDecimal(IPU9.Text) * Convert.ToDecimal(Units9.Text)
             unit9 = Convert.ToDecimal(Units9.Text)
+            m39 = Convert.ToDecimal(M3PU9.Text) * Convert.ToDecimal(Units9.Text)
             IskMade9.Text = var9.ToString("#,##0.00")
             Units9.Text = unit9.ToString("#,##0.00")
+            M3Made9.Text = m39.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -136,10 +163,13 @@ Public Class PICalculator
         Else
             Dim var10 As Decimal
             Dim unit10 As Integer
+            Dim m310 As Decimal
             var10 = Convert.ToDecimal(IPU10.Text) * Convert.ToDecimal(Units10.Text)
             unit10 = Convert.ToDecimal(Units10.Text)
+            m310 = Convert.ToDecimal(M3PU10.Text) * Convert.ToDecimal(Units10.Text)
             IskMade10.Text = var10.ToString("#,##0.00")
             Units10.Text = unit10.ToString("#,##0.00")
+            M3Made10.Text = m310.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -149,10 +179,13 @@ Public Class PICalculator
         Else
             Dim var11 As Decimal
             Dim unit11 As Integer
+            Dim m311 As Decimal
             var11 = Convert.ToDecimal(IPU11.Text) * Convert.ToDecimal(Units11.Text)
             unit11 = Convert.ToDecimal(Units11.Text)
+            m311 = Convert.ToDecimal(M3PU11.Text) * Convert.ToDecimal(Units11.Text)
             IskMade11.Text = var11.ToString("#,##0.00")
             Units11.Text = unit11.ToString("#,##0.00")
+            M3Made11.Text = m311.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -162,10 +195,13 @@ Public Class PICalculator
         Else
             Dim var12 As Decimal
             Dim unit12 As Integer
+            Dim m312 As Decimal
             var12 = Convert.ToDecimal(IPU12.Text) * Convert.ToDecimal(Units12.Text)
             unit12 = Convert.ToDecimal(Units12.Text)
+            m312 = Convert.ToDecimal(M3PU12.Text) * Convert.ToDecimal(Units12.Text)
             IskMade12.Text = var12.ToString("#,##0.00")
             Units12.Text = unit12.ToString("#,##0.00")
+            M3Made12.Text = m312.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -175,10 +211,13 @@ Public Class PICalculator
         Else
             Dim var13 As Decimal
             Dim unit13 As Integer
+            Dim m313 As Decimal
             var13 = Convert.ToDecimal(IPU13.Text) * Convert.ToDecimal(Units13.Text)
             unit13 = Convert.ToDecimal(Units13.Text)
+            m313 = Convert.ToDecimal(M3PU13.Text) * Convert.ToDecimal(Units13.Text)
             IskMade13.Text = var13.ToString("#,##0.00")
             Units13.Text = unit13.ToString("#,##0.00")
+            M3Made13.Text = m313.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -188,10 +227,13 @@ Public Class PICalculator
         Else
             Dim var14 As Decimal
             Dim unit14 As Integer
+            Dim m314 As Decimal
             var14 = Convert.ToDecimal(IPU14.Text) * Convert.ToDecimal(Units14.Text)
             unit14 = Convert.ToDecimal(Units14.Text)
+            m314 = Convert.ToDecimal(M3PU14.Text) * Convert.ToDecimal(Units14.Text)
             IskMade14.Text = var14.ToString("#,##0.00")
             Units14.Text = unit14.ToString("#,##0.00")
+            M3Made14.Text = m314.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -201,10 +243,13 @@ Public Class PICalculator
         Else
             Dim var15 As Decimal
             Dim unit15 As Integer
+            Dim m315 As Decimal
             var15 = Convert.ToDecimal(IPU15.Text) * Convert.ToDecimal(Units15.Text)
             unit15 = Convert.ToDecimal(Units15.Text)
+            m315 = Convert.ToDecimal(M3PU15.Text) * Convert.ToDecimal(Units15.Text)
             IskMade15.Text = var15.ToString("#,##0.00")
             Units15.Text = unit15.ToString("#,##0.00")
+            M3Made15.Text = m315.ToString("#,##0.00")
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -226,7 +271,7 @@ Public Class PICalculator
             Convert.ToDecimal(IskMade13.Text) +
             Convert.ToDecimal(IskMade14.Text) +
             Convert.ToDecimal(IskMade15.Text)
-        Total_M3_Made.Text = Convert.ToDecimal(M3Made1.Text) +
+        m3vartotal = Convert.ToDecimal(M3Made1.Text) +
             Convert.ToDecimal(M3Made2.Text) +
             Convert.ToDecimal(M3Made3.Text) +
             Convert.ToDecimal(M3Made4.Text) +
@@ -328,8 +373,6 @@ Public Class PICalculator
     Private Sub PICalculator_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'TODO: This line of code loads data into the 'YHIDataSet1.PI_Prices' table. You can move, or remove it, as needed.
         Me.PI_PricesTableAdapter.Fill(Me.YHIDataSet1.PI_Prices)
-        'TODO: This line of code loads data into the 'YHIDataSet1.PI_Prices' table. You can move, or remove it, as needed.
-        'Me.PI_PricesTableAdapter.Fill(Me.YHIDataSet1.PI_Prices)
 
         IPU1.Text = " "
         IPU2.Text = " "
@@ -352,15 +395,16 @@ Public Class PICalculator
         If Item1.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item1.SelectedItem.Row
             IPU1.Text = Source_Data.Price
-            M3Made1.Text = Source_Data.M3
+            M3PU1.Text = Source_Data.M3
         End If
+
     End Sub
 
     Private Sub Item2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item2.SelectedIndexChanged
         If Item2.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item2.SelectedItem.Row
             IPU2.Text = Source_Data.Price
-            M3Made2.Text = Source_Data.M3
+            M3PU2.Text = Source_Data.M3
         End If
     End Sub
 
@@ -368,7 +412,7 @@ Public Class PICalculator
         If Item3.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item3.SelectedItem.Row
             IPU3.Text = Source_Data.Price
-            M3Made3.Text = Source_Data.M3
+            M3PU3.Text = Source_Data.M3
         End If
     End Sub
 
@@ -376,7 +420,7 @@ Public Class PICalculator
         If Item4.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item4.SelectedItem.Row
             IPU4.Text = Source_Data.Price
-            M3Made4.Text = Source_Data.M3
+            M3PU4.Text = Source_Data.M3
         End If
     End Sub
 
@@ -384,7 +428,7 @@ Public Class PICalculator
         If Item5.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item5.SelectedItem.Row
             IPU5.Text = Source_Data.Price
-            M3Made5.Text = Source_Data.M3
+            M3PU5.Text = Source_Data.M3
         End If
     End Sub
 
@@ -392,7 +436,7 @@ Public Class PICalculator
         If Item6.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item6.SelectedItem.Row
             IPU6.Text = Source_Data.Price
-            M3Made6.Text = Source_Data.M3
+            M3PU6.Text = Source_Data.M3
         End If
     End Sub
 
@@ -400,7 +444,7 @@ Public Class PICalculator
         If Item7.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item7.SelectedItem.Row
             IPU7.Text = Source_Data.Price
-            M3Made7.Text = Source_Data.M3
+            M3PU7.Text = Source_Data.M3
         End If
     End Sub
 
@@ -408,7 +452,7 @@ Public Class PICalculator
         If Item8.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item8.SelectedItem.Row
             IPU8.Text = Source_Data.Price
-            M3Made8.Text = Source_Data.M3
+            M3PU8.Text = Source_Data.M3
         End If
     End Sub
 
@@ -416,7 +460,7 @@ Public Class PICalculator
         If Item9.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item9.SelectedItem.Row
             IPU9.Text = Source_Data.Price
-            M3Made9.Text = Source_Data.M3
+            M3PU9.Text = Source_Data.M3
         End If
     End Sub
 
@@ -424,42 +468,42 @@ Public Class PICalculator
         If Item10.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item10.SelectedItem.Row
             IPU10.Text = Source_Data.Price
-            M3Made10.Text = Source_Data.M3
+            M3PU10.Text = Source_Data.M3
         End If
     End Sub
     Private Sub Item11_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item11.SelectedIndexChanged
         If Item11.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item11.SelectedItem.Row
             IPU11.Text = Source_Data.Price
-            M3Made11.Text = Source_Data.M3
+            M3PU11.Text = Source_Data.M3
         End If
     End Sub
     Private Sub Item12_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item12.SelectedIndexChanged
         If Item12.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item12.SelectedItem.Row
             IPU12.Text = Source_Data.Price
-            M3Made12.Text = Source_Data.M3
+            M3PU12.Text = Source_Data.M3
         End If
     End Sub
     Private Sub Item13_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item13.SelectedIndexChanged
         If Item13.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item13.SelectedItem.Row
             IPU13.Text = Source_Data.Price
-            M3Made13.Text = Source_Data.M3
+            M3PU13.Text = Source_Data.M3
         End If
     End Sub
     Private Sub Item14_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item14.SelectedIndexChanged
         If Item14.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item14.SelectedItem.Row
             IPU14.Text = Source_Data.Price
-            M3Made14.Text = Source_Data.M3
+            M3PU14.Text = Source_Data.M3
         End If
     End Sub
     Private Sub Item15_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item15.SelectedIndexChanged
         If Item15.SelectedIndex > 0 Then
             Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet1.PI_PricesRow = Item15.SelectedItem.Row
             IPU15.Text = Source_Data.Price
-            M3Made15.Text = Source_Data.M3
+            M3PU15.Text = Source_Data.M3
         End If
     End Sub
 
