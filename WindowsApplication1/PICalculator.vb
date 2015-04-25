@@ -762,7 +762,7 @@ Public Class PICalculator
             IskMade15.Text = Convert.ToDecimal(IPU15.Text) * Convert.ToDecimal(Units15.Text)
             M3Made15.Text = M3Made15.Text.Remove(M3Made15.Text.Length - 3)
         End If
-        Calc_Total_Isk_Made()
+        'Calc_Total_Isk_Made()
 
     End Sub
 End Class

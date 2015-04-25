@@ -101,6 +101,8 @@ Partial Class OreCalculator
         Me.Item3 = New System.Windows.Forms.ComboBox()
         Me.MiningPricesBindingSource2 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item2 = New System.Windows.Forms.ComboBox()
+        Me.MiningPricesBindingSource16 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.YHIDataSet2 = New Officer_EVE_Ore_Calculator.YHIDataSet2()
         Me.MiningPricesBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.YHIDataSet = New Officer_EVE_Ore_Calculator.YHIDataSet()
         Me.IskMade5 = New System.Windows.Forms.TextBox()
@@ -125,6 +127,7 @@ Partial Class OreCalculator
         Me.Units1 = New System.Windows.Forms.TextBox()
         Me.IPU1 = New System.Windows.Forms.TextBox()
         Me.Item1 = New System.Windows.Forms.ComboBox()
+        Me.MiningPricesBindingSource15 = New System.Windows.Forms.BindingSource(Me.components)
         Me.MiningPricesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.Character_Name = New System.Windows.Forms.TextBox()
         Me.Character_Name_Label = New System.Windows.Forms.Label()
@@ -149,10 +152,7 @@ Partial Class OreCalculator
         Me.PIPricesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.PI_PricesTableAdapter = New Officer_EVE_Ore_Calculator.YHIDataSet1TableAdapters.PI_PricesTableAdapter()
         Me.PIPricesBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.YHIDataSet2 = New Officer_EVE_Ore_Calculator.YHIDataSet2()
-        Me.MiningPricesBindingSource15 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Mining_PricesTableAdapter1 = New Officer_EVE_Ore_Calculator.YHIDataSet2TableAdapters.Mining_PricesTableAdapter()
-        Me.MiningPricesBindingSource16 = New System.Windows.Forms.BindingSource(Me.components)
         CType(Me.MiningPricesBindingSource14, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.YHIDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MiningPricesBindingSource13, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -167,15 +167,15 @@ Partial Class OreCalculator
         CType(Me.MiningPricesBindingSource4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MiningPricesBindingSource3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MiningPricesBindingSource2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.YHIDataSet2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MiningPricesBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.YHIDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource15, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MiningPricesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.YHIDataSet11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.YHIDataSet2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MiningPricesBindingSource15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MiningPricesBindingSource16, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Submit_Button
@@ -921,6 +921,16 @@ Partial Class OreCalculator
         Me.Item2.TabIndex = 138
         Me.Item2.ValueMember = "M3"
         '
+        'MiningPricesBindingSource16
+        '
+        Me.MiningPricesBindingSource16.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource16.DataSource = Me.YHIDataSet2
+        '
+        'YHIDataSet2
+        '
+        Me.YHIDataSet2.DataSetName = "YHIDataSet2"
+        Me.YHIDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
         'MiningPricesBindingSource1
         '
         Me.MiningPricesBindingSource1.DataMember = "Mining_Prices"
@@ -1139,6 +1149,11 @@ Partial Class OreCalculator
         Me.Item1.Size = New System.Drawing.Size(234, 28)
         Me.Item1.TabIndex = 133
         Me.Item1.ValueMember = "M3"
+        '
+        'MiningPricesBindingSource15
+        '
+        Me.MiningPricesBindingSource15.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource15.DataSource = Me.YHIDataSet2
         '
         'MiningPricesBindingSource
         '
@@ -1360,24 +1375,9 @@ Partial Class OreCalculator
         Me.PIPricesBindingSource1.DataMember = "PI_Prices"
         Me.PIPricesBindingSource1.DataSource = Me.YHIDataSet11
         '
-        'YHIDataSet2
-        '
-        Me.YHIDataSet2.DataSetName = "YHIDataSet2"
-        Me.YHIDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'MiningPricesBindingSource15
-        '
-        Me.MiningPricesBindingSource15.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource15.DataSource = Me.YHIDataSet2
-        '
         'Mining_PricesTableAdapter1
         '
         Me.Mining_PricesTableAdapter1.ClearBeforeFill = True
-        '
-        'MiningPricesBindingSource16
-        '
-        Me.MiningPricesBindingSource16.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource16.DataSource = Me.YHIDataSet2
         '
         'OreCalculator
         '
@@ -1507,15 +1507,15 @@ Partial Class OreCalculator
         CType(Me.MiningPricesBindingSource4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MiningPricesBindingSource3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MiningPricesBindingSource2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.YHIDataSet2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MiningPricesBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.YHIDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource15, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MiningPricesBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.YHIDataSet11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PIPricesBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PIPricesBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.YHIDataSet2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MiningPricesBindingSource15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MiningPricesBindingSource16, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

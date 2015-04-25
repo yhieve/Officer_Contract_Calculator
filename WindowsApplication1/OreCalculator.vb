@@ -411,7 +411,7 @@ Public Class OreCalculator
     End Sub
     Private Sub Item1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item1.SelectedIndexChanged
         If Item1.SelectedIndex > 0 Then
-            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet2.Mining_PricesRow = Item1.SelectedItem.Row
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item1.SelectedItem.Row
             IPU1.Text = Source_Data.Price
             M3PU1.Text = Source_Data.M3
         End If
@@ -420,7 +420,7 @@ Public Class OreCalculator
 
     Private Sub Item2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item2.SelectedIndexChanged
         If Item2.SelectedIndex > 0 Then
-            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet2.Mining_PricesRow = Item2.SelectedItem.Row
+            Dim Source_Data As Officer_EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item2.SelectedItem.Row
             IPU2.Text = Source_Data.Price
             M3PU2.Text = Source_Data.M3
         End If

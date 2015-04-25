@@ -134,12 +134,16 @@ Partial Class PICalculator
         Me.M3PU8 = New System.Windows.Forms.TextBox()
         Me.M3PU7 = New System.Windows.Forms.TextBox()
         Me.M3PU6 = New System.Windows.Forms.TextBox()
+        Me.YHIDataSet1BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PIPricesBindingSource3 = New System.Windows.Forms.BindingSource(Me.components)
         CType(Me.PIPricesBindingSource2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.YHIDataSet1BindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.YHIDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.YHIDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.YHIDataSet1BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PIPricesBindingSource3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Submit_Button
@@ -215,6 +219,8 @@ Partial Class PICalculator
         '
         Me.Item4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.Item4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
+        Me.Item4.DataSource = Me.PIPricesBindingSource3
+        Me.Item4.DisplayMember = "Item"
         Me.Item4.FormattingEnabled = True
         Me.Item4.Location = New System.Drawing.Point(60, 297)
         Me.Item4.Name = "Item4"
@@ -1208,6 +1214,16 @@ Partial Class PICalculator
         Me.M3PU6.TabIndex = 207
         Me.M3PU6.Text = "0"
         '
+        'YHIDataSet1BindingSource1
+        '
+        Me.YHIDataSet1BindingSource1.DataSource = Me.YHIDataSet1
+        Me.YHIDataSet1BindingSource1.Position = 0
+        '
+        'PIPricesBindingSource3
+        '
+        Me.PIPricesBindingSource3.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource3.DataSource = Me.YHIDataSet1BindingSource1
+        '
         'PICalculator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -1327,6 +1343,8 @@ Partial Class PICalculator
         CType(Me.PIPricesBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PIPricesBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.YHIDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.YHIDataSet1BindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PIPricesBindingSource3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1442,4 +1460,6 @@ Partial Class PICalculator
     Friend WithEvents M3PU8 As System.Windows.Forms.TextBox
     Friend WithEvents M3PU7 As System.Windows.Forms.TextBox
     Friend WithEvents M3PU6 As System.Windows.Forms.TextBox
+    Friend WithEvents PIPricesBindingSource3 As System.Windows.Forms.BindingSource
+    Friend WithEvents YHIDataSet1BindingSource1 As System.Windows.Forms.BindingSource
 End Class
