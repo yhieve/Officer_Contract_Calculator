@@ -646,123 +646,108 @@ Public Class PICalculator
         End Try
     End Sub
 
-    Public Sub New(ItemNames As List(Of String), ItemAmounts As List(Of String), M3Amounts As List(Of String))
+    Public Sub New(ItemNames As List(Of String), ItemAmounts As List(Of String))
 
         ' This call is required by the designer.
         InitializeComponent()
         Me.ItemNames = ItemNames
         Me.ItemAmounts = ItemAmounts
-        Me.M3Amounts = M3Amounts
 
     End Sub
 
-    Private Sub OreCalculator_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+    Private Sub PICalculator_Shown(sender As Object, e As EventArgs) Handles Me.Shown
         If ItemNames.Count > 0 Then
             Item1.Text = Me.ItemNames(0)
             Units1.Text = Me.ItemAmounts(0)
-            M3Made1.Text = Me.M3Amounts(0)
             IskMade1.Text = Convert.ToDecimal(IPU1.Text) * Convert.ToDecimal(Units1.Text)
-            M3Made1.Text = M3Made1.Text.Remove(M3Made1.Text.Length - 3)
+            M3Made1.Text = Convert.ToDecimal(M3PU1.Text) * Convert.ToDecimal(Units1.Text)
         End If
         If ItemNames.Count > 1 Then
             Item2.Text = Me.ItemNames(1)
             Units2.Text = Me.ItemAmounts(1)
-            M3Made2.Text = Me.M3Amounts(1)
             IskMade2.Text = Convert.ToDecimal(IPU2.Text) * Convert.ToDecimal(Units2.Text)
-            M3Made2.Text = M3Made2.Text.Remove(M3Made2.Text.Length - 3)
+            M3Made2.Text = Convert.ToDecimal(M3PU2.Text) * Convert.ToDecimal(Units2.Text)
         End If
         If ItemNames.Count > 2 Then
             Item3.Text = Me.ItemNames(2)
             Units3.Text = Me.ItemAmounts(2)
-            M3Made3.Text = Me.M3Amounts(2)
             IskMade3.Text = Convert.ToDecimal(IPU3.Text) * Convert.ToDecimal(Units3.Text)
-            M3Made3.Text = M3Made3.Text.Remove(M3Made3.Text.Length - 3)
+            M3Made3.Text = Convert.ToDecimal(M3PU3.Text) * Convert.ToDecimal(Units3.Text)
         End If
         If ItemNames.Count > 3 Then
             Item4.Text = Me.ItemNames(3)
             Units4.Text = Me.ItemAmounts(3)
-            M3Made4.Text = Me.M3Amounts(3)
             IskMade4.Text = Convert.ToDecimal(IPU4.Text) * Convert.ToDecimal(Units4.Text)
-            M3Made4.Text = M3Made4.Text.Remove(M3Made4.Text.Length - 3)
+            M3Made4.Text = Convert.ToDecimal(M3PU4.Text) * Convert.ToDecimal(Units4.Text)
         End If
         If ItemNames.Count > 4 Then
             Item5.Text = Me.ItemNames(4)
             Units5.Text = Me.ItemAmounts(4)
-            M3Made5.Text = Me.M3Amounts(4)
             IskMade5.Text = Convert.ToDecimal(IPU5.Text) * Convert.ToDecimal(Units5.Text)
-            M3Made5.Text = M3Made5.Text.Remove(M3Made5.Text.Length - 3)
+            M3Made5.Text = Convert.ToDecimal(M3PU5.Text) * Convert.ToDecimal(Units5.Text)
         End If
         If ItemNames.Count > 5 Then
             Item6.Text = Me.ItemNames(5)
             Units6.Text = Me.ItemAmounts(5)
-            M3Made6.Text = Me.M3Amounts(5)
             IskMade6.Text = Convert.ToDecimal(IPU6.Text) * Convert.ToDecimal(Units6.Text)
-            M3Made6.Text = M3Made1.Text.Remove(M3Made6.Text.Length - 3)
+            M3Made6.Text = Convert.ToDecimal(M3PU6.Text) * Convert.ToDecimal(Units6.Text)
         End If
         If ItemNames.Count > 6 Then
             Item7.Text = Me.ItemNames(6)
             Units7.Text = Me.ItemAmounts(6)
-            M3Made7.Text = Me.M3Amounts(6)
             IskMade7.Text = Convert.ToDecimal(IPU7.Text) * Convert.ToDecimal(Units7.Text)
-            M3Made7.Text = M3Made7.Text.Remove(M3Made7.Text.Length - 3)
+            M3Made7.Text = Convert.ToDecimal(M3PU7.Text) * Convert.ToDecimal(Units7.Text)
         End If
         If ItemNames.Count > 7 Then
             Item8.Text = Me.ItemNames(7)
             Units8.Text = Me.ItemAmounts(7)
-            M3Made8.Text = Me.M3Amounts(7)
             IskMade8.Text = Convert.ToDecimal(IPU8.Text) * Convert.ToDecimal(Units8.Text)
-            M3Made8.Text = M3Made8.Text.Remove(M3Made8.Text.Length - 3)
+            M3Made8.Text = Convert.ToDecimal(M3PU8.Text) * Convert.ToDecimal(Units8.Text)
         End If
         If ItemNames.Count > 8 Then
             Item9.Text = Me.ItemNames(8)
             Units9.Text = Me.ItemAmounts(8)
-            M3Made9.Text = Me.M3Amounts(8)
             IskMade9.Text = Convert.ToDecimal(IPU9.Text) * Convert.ToDecimal(Units9.Text)
-            M3Made9.Text = M3Made9.Text.Remove(M3Made9.Text.Length - 3)
+            M3Made9.Text = Convert.ToDecimal(M3PU9.Text) * Convert.ToDecimal(Units9.Text)
         End If
         If ItemNames.Count > 9 Then
             Item10.Text = Me.ItemNames(9)
             Units10.Text = Me.ItemAmounts(9)
-            M3Made10.Text = Me.M3Amounts(9)
             IskMade10.Text = Convert.ToDecimal(IPU10.Text) * Convert.ToDecimal(Units10.Text)
-            M3Made10.Text = M3Made10.Text.Remove(M3Made10.Text.Length - 3)
+            M3Made10.Text = Convert.ToDecimal(M3PU10.Text) * Convert.ToDecimal(Units10.Text)
         End If
         If ItemNames.Count > 10 Then
             Item11.Text = Me.ItemNames(10)
             Units11.Text = Me.ItemAmounts(10)
-            M3Made11.Text = Me.M3Amounts(10)
             IskMade11.Text = Convert.ToDecimal(IPU11.Text) * Convert.ToDecimal(Units11.Text)
-            M3Made11.Text = M3Made11.Text.Remove(M3Made11.Text.Length - 3)
+            M3Made11.Text = Convert.ToDecimal(M3PU11.Text) * Convert.ToDecimal(Units11.Text)
         End If
         If ItemNames.Count > 11 Then
             Item12.Text = Me.ItemNames(11)
             Units12.Text = Me.ItemAmounts(11)
-            M3Made12.Text = Me.M3Amounts(11)
             IskMade12.Text = Convert.ToDecimal(IPU12.Text) * Convert.ToDecimal(Units12.Text)
-            M3Made12.Text = M3Made12.Text.Remove(M3Made12.Text.Length - 3)
+            M3Made12.Text = Convert.ToDecimal(M3PU12.Text) * Convert.ToDecimal(Units12.Text)
         End If
         If ItemNames.Count > 12 Then
             Item13.Text = Me.ItemNames(12)
             Units13.Text = Me.ItemAmounts(12)
-            M3Made13.Text = Me.M3Amounts(12)
             IskMade13.Text = Convert.ToDecimal(IPU13.Text) * Convert.ToDecimal(Units13.Text)
-            M3Made13.Text = M3Made13.Text.Remove(M3Made13.Text.Length - 3)
+            M3Made13.Text = Convert.ToDecimal(M3PU13.Text) * Convert.ToDecimal(Units13.Text)
         End If
         If ItemNames.Count > 13 Then
             Item14.Text = Me.ItemNames(13)
             Units14.Text = Me.ItemAmounts(13)
-            M3Made14.Text = Me.M3Amounts(13)
             IskMade14.Text = Convert.ToDecimal(IPU14.Text) * Convert.ToDecimal(Units14.Text)
-            M3Made14.Text = M3Made14.Text.Remove(M3Made14.Text.Length - 3)
+            M3Made14.Text = Convert.ToDecimal(M3PU14.Text) * Convert.ToDecimal(Units14.Text)
         End If
         If ItemNames.Count > 14 Then
             Item15.Text = Me.ItemNames(14)
             Units15.Text = Me.ItemAmounts(14)
-            M3Made15.Text = Me.M3Amounts(15)
             IskMade15.Text = Convert.ToDecimal(IPU15.Text) * Convert.ToDecimal(Units15.Text)
-            M3Made15.Text = M3Made15.Text.Remove(M3Made15.Text.Length - 3)
+            M3Made15.Text = Convert.ToDecimal(M3PU15.Text) * Convert.ToDecimal(Units15.Text)
         End If
-        'Calc_Total_Isk_Made()
+        Calc_Total_Isk_Made()
 
     End Sub
+
 End Class

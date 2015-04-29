@@ -20,22 +20,19 @@ Public Class PIAppraisleBox
         StringArray = PastedString.Split(vbLf)
         Dim ItemNames As List(Of String) = New List(Of String)
         Dim ItemAmounts As List(Of String) = New List(Of String)
-        Dim ItemM3 As List(Of String) = New List(Of String)
         For Each PastedRecord As String In StringArray
             Dim Array As String() = PastedRecord.Split(Constants.vbTab)
             ItemNames.Add(Array(0))
             ItemAmounts.Add(Array(1))
-            ItemM3.Add(Array(5))
         Next
-        Dim myform As New PICalculator(ItemNames, ItemAmounts, ItemM3)
+        Dim myform As New PICalculator(ItemNames, ItemAmounts)
         myform.Show()
     End Sub
 
     Private Sub Skip_Click(sender As Object, e As EventArgs) Handles Skip.Click
         Dim ItemNames As List(Of String) = New List(Of String)
         Dim ItemAmounts As List(Of String) = New List(Of String)
-        Dim ItemM3 As List(Of String) = New List(Of String)
-        Dim myform As New PICalculator(ItemNames, ItemAmounts, ItemM3)
+        Dim myform As New PICalculator(ItemNames, ItemAmounts)
         myform.Show()
     End Sub
 End Class
