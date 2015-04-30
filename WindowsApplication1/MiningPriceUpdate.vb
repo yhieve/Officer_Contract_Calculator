@@ -31,7 +31,7 @@ Public Class MiningPriceUpdate
                 cmd.Parameters.AddWithValue("@item_name", filecolumns(0))
                 cmd.Parameters("@item_name").Direction = ParameterDirection.Input
                 cmd.Parameters.AddWithValue("Price_Isk", filecolumns(1))
-                cmd.Parameters("@item_name").Direction = ParameterDirection.Input
+                cmd.Parameters("@Price_Isk").Direction = ParameterDirection.Input
                 cmd.ExecuteNonQuery()
             Next
             MessageBox.Show("Import Successful")
