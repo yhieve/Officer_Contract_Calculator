@@ -30,53 +30,53 @@ Partial Class PIAppraisleBox
         '
         'AppraisleBox
         '
-        Me.AppraisleBox.Location = New System.Drawing.Point(40, 23)
+        Me.AppraisleBox.AcceptsTab = True
+        Me.AppraisleBox.Location = New System.Drawing.Point(60, 35)
+        Me.AppraisleBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.AppraisleBox.Name = "AppraisleBox"
-        Me.AppraisleBox.Size = New System.Drawing.Size(393, 205)
+        Me.AppraisleBox.Size = New System.Drawing.Size(588, 313)
         Me.AppraisleBox.TabIndex = 0
         Me.AppraisleBox.Text = ""
         '
         'Submit_Button
         '
-        Me.Submit_Button.Location = New System.Drawing.Point(202, 233)
-        Me.Submit_Button.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Submit_Button.Location = New System.Drawing.Point(303, 358)
         Me.Submit_Button.Name = "Submit_Button"
-        Me.Submit_Button.Size = New System.Drawing.Size(77, 27)
+        Me.Submit_Button.Size = New System.Drawing.Size(116, 42)
         Me.Submit_Button.TabIndex = 97
         Me.Submit_Button.Text = "Submit"
         Me.Submit_Button.UseVisualStyleBackColor = True
         '
         'Clear_All_Button
         '
-        Me.Clear_All_Button.Location = New System.Drawing.Point(58, 233)
-        Me.Clear_All_Button.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Clear_All_Button.Location = New System.Drawing.Point(87, 358)
         Me.Clear_All_Button.Name = "Clear_All_Button"
-        Me.Clear_All_Button.Size = New System.Drawing.Size(77, 27)
+        Me.Clear_All_Button.Size = New System.Drawing.Size(116, 42)
         Me.Clear_All_Button.TabIndex = 96
         Me.Clear_All_Button.Text = "Clear All"
         Me.Clear_All_Button.UseVisualStyleBackColor = True
         '
         'Skip
         '
-        Me.Skip.Location = New System.Drawing.Point(344, 233)
-        Me.Skip.Margin = New System.Windows.Forms.Padding(2)
+        Me.Skip.Location = New System.Drawing.Point(516, 358)
         Me.Skip.Name = "Skip"
-        Me.Skip.Size = New System.Drawing.Size(77, 27)
+        Me.Skip.Size = New System.Drawing.Size(116, 42)
         Me.Skip.TabIndex = 98
         Me.Skip.Text = "Skip"
         Me.Skip.UseVisualStyleBackColor = True
         '
         'PIAppraisleBox
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Officer_EVE_Ore_Calculator.My.Resources.Resources.yellow_violet_planet_by_paulinemoss_d532k8u
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(474, 275)
+        Me.ClientSize = New System.Drawing.Size(711, 423)
         Me.Controls.Add(Me.Skip)
         Me.Controls.Add(Me.Submit_Button)
         Me.Controls.Add(Me.Clear_All_Button)
         Me.Controls.Add(Me.AppraisleBox)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "PIAppraisleBox"
         Me.Text = "PIAppraisleBox"
         Me.ResumeLayout(False)

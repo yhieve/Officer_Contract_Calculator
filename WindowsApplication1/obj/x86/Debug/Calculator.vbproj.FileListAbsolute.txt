@@ -98,11 +98,9 @@ C:\Users\Alex\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x
 C:\Users\Alex\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.OreCalculator.resources
 C:\Users\Alex\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.PIAppraisleBox.resources
 C:\Users\Alex\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.PICalculator.resources
-C:\Users\Alex\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.Z_Old_OreCalculator.resources
 C:\Users\Alex\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.Login.resources
 C:\Users\Alex\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.Resources.resources
 C:\Users\Alex\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.ItemPriceUpdate.resources
-C:\Users\Alex\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.Z_Old_OrePriceUpdate.resources
 C:\Users\Alex\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.PIPriceUpdate.resources
 C:\Users\Alex\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Calculator.vbproj.GenerateResource.Cache
 C:\Users\Alex\Source\Repos\Officer_Contract_Calculator\WindowsApplication1\obj\x86\Debug\Officer_EVE_Ore_Calculator.exe

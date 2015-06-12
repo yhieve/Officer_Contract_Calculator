@@ -10,7 +10,6 @@ Public Class PICalculator
     Dim cmd As MySqlCommand
     Dim ItemNames As List(Of String) = New List(Of String)
     Dim ItemAmounts As List(Of String) = New List(Of String)
-    Dim M3Amounts As List(Of String) = New List(Of String)
 
 
     Private Sub Calc_Units1_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Units1.Leave

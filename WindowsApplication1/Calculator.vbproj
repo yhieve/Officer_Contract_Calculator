@@ -161,13 +161,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>YHIDataSet3.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Z_Old_OreCalculator.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Z_Old_OreCalculator.Designer.vb">
-      <DependentUpon>Z_Old_OreCalculator.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
@@ -193,12 +186,6 @@
       <DependentUpon>ItemPriceUpdate.vb</DependentUpon>
     </Compile>
     <Compile Include="ItemPriceUpdate.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Z_Old_OrePriceUpdate.Designer.vb">
-      <DependentUpon>Z_Old_OrePriceUpdate.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Z_Old_OrePriceUpdate.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PIPriceUpdate.Designer.vb">
@@ -227,9 +214,6 @@
     <EmbeddedResource Include="PICalculator.resx">
       <DependentUpon>PICalculator.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Z_Old_OreCalculator.resx">
-      <DependentUpon>Z_Old_OreCalculator.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
@@ -241,9 +225,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ItemPriceUpdate.resx">
       <DependentUpon>ItemPriceUpdate.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Z_Old_OrePriceUpdate.resx">
-      <DependentUpon>Z_Old_OrePriceUpdate.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PIPriceUpdate.resx">
       <DependentUpon>PIPriceUpdate.vb</DependentUpon>
